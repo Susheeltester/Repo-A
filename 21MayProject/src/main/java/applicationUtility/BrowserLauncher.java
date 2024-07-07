@@ -7,5 +7,6 @@ public class BrowserLauncher {
 	
 public static void main(String[] args) {
 	WebDriver driver = new ChromeDriver();
+	driver.get("amazon.in");
 }
 }
